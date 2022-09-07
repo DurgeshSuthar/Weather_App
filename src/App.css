@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+html{
+    background-color: rgb(184, 205, 210);
+}
+.wthr{
+    font-family: 'Carter One', cursive;
+    font-size:2.3rem;
+}
+.App{
+    display:flex;
+    flex-direction:column;
+    background-color:rgb(184, 205, 210);
+    text-align:center;
+    min-height: 493px;
+    width: 430px;
+    margin: 128px auto;
+    border-radius: 8px;
+    padding-bottom: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.searchCity{
+    width: 230px;
+    padding:12px;
+    outline: none;
+    border-radius:20px;
+    border:2px solid rgb(197, 197, 203);
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.city-name{
+    height:50px;
+    font-size:1.3rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.h2{
+    margin-bottom:0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.date{
+    margin-top:0;
+    font-size:17px;
+    font-weight:500;
 }
-
-.App-link {
-  color: #61dafb;
+.temperature{
+    font-size: 4rem;
+    font-weight:600;
+    text-align:center;
+    color:rgb(21, 29, 67);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.d{
+    font-size:2.1rem;
+}
+.desc{
+    font-weight: 500;
+}
+.error-msg{
+    text-align:center;
+    font-size: 1.6rem;
+    font-weight:600;
+    display:block;
+    color:rgb(14, 46, 52);
+}
+.spin img{
+    height:115px;
+    width:115px;
+}
+.logo img{
+    width:250px;
+    height:250px;
+}
+.myname{
+    font-weight: 600;
+    font-size:22px;
 }
